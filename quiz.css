@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.quiz-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 1rem;
+  border: none;
+  background: #007bff;
+  color:blue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background:white;
+}
+
+.answer-btn {
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+  text-align: left;
+  background: #e0e0e0;
+}
+
+.answer-btn.correct {
+  background-color: #4caf50;
+  color: white;
+}
+
+.answer-btn.wrong {
+  background-color: #f44336;
+  color: white;
+}
